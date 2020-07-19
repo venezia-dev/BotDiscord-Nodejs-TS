@@ -1,0 +1,27 @@
+{
+  "name": "base-bot-discord-nodejs-ts",
+  "version": "0.0.1",
+  "description": "Proyecto base de un Bot para un servidor de Discord con Nodejs + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/bot.js",
+    "dev": "nodemon -e ts --exec \"npm run build && npm run start\""
+  },
+  "keywords": [],
+  "author": "VeneziaDev.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.22",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
+  }
+}

@@ -1,6 +1,6 @@
 # Bot Discord Base - Nodejs + TS + HEROKU
 
-Proyecto base de un Bot para un servidor de Discord con Nodejs + TypeScript
+Proyecto base de un Bot para un servidor de Discord con Nodejs + TypeScript.
 Ya configurado para subir a un servicio de Heroku, para que este online siempre.
 
 ## Funciones:
@@ -20,10 +20,11 @@ heroku config:set DISCORD_TOKEN=AQUI VA EL TOKEN
 - Configurar en Resources(Recursos), desactivar el recurso web y crear el worker
 worker npm start y activar.
 Con esto ultimo hace que el proyecto no se duerma despues de los 30minutos sin actividad.
+
 ![Image description](screenbot3.png)
 
 
-## Screenshot
+## Screenshots
 ![Image description](screenbot1.png)
 ![Image description](screenbot2.png)
 
